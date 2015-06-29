@@ -1,8 +1,32 @@
 body {
-	padding-top: 100px;
+	padding-top: 180px;
+	padding-bottom: 75px;
 }
 
-#navbar-padding {
+.fa-5x {
+	font-size: 12em;
+}
+
+.navbar-blue {
+	background-color: #3498db;
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+.padding-for-search {
+	margin-top: 20px;
+}
+
+.article-nav {
+	background-color: white;
+	height: 50px;
+	margin-top: 110px;
+}
+
+#logo {
+	margin-left: 50px;
+}
+
+.jumbotron {
+	padding: 0px;
 }
