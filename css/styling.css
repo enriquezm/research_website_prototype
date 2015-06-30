@@ -27,6 +27,17 @@ body {
 	margin-left: 50px;
 }
 
-.jumbotron {
-	padding: 0px;
+.inline-elem {
+	display: inline;
+}
+.fa:hover {
+	cursor: pointer;
+}
+div .jumbotron {
+	padding: 15px 10px 15px 10px;
+	border-radius: 0px;
+}
+
+.panel {
+	margin-top: 20px;
 }

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="Myles Enriquez">
+		
+		<title>Research Website</title>
+		
+		<link rel="icon" href="">
+		<link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		<link href="css/styling.css" rel="stylesheet">	
+		<link href="css/bootstrap.min.css" rel="stylesheet" >
+	</head>
+	<body>
+		<!--Header -->
+		<header>
+			<nav class="navbar navbar-blue navbar-fixed-top">
+				<div class="row">
+					<div class="col-md-8">
+						<img id="logo" src="logo_kcc_224x72.png" />
+					</div>
+					<div class="col-md-4"></div>
+				</div>
+			</nav>
+		</header>
+		
+		<!-- Main Content -->
+		<section>
+			<div class="container">
+				<h1>Update Article</h1>
+				<div class="row">
+					<div class="col-md-4">
+						<textarea class="form-control" rows="1">Project XYZ</textarea>
+					</div>
+					<div class="col-md-8"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-7">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<button type="button" class="btn btn-default" aria-label="Left Align">
+									<span class="glyphicon glyphicon-bold" aria-hidden="true"></span>
+								</button>
+								<button type="button" class="btn btn-default" aria-label="Left Align">
+	  								<span class="glyphicon glyphicon-italic" aria-hidden="true"></span>
+	  							</button>
+								<button type="button" class="btn btn-default" aria-label="Left Align">
+	  								<span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+								</button>
+								<button type="button" class="btn btn-default" aria-label="Left Align">
+									<span class="glyphicon glyphicon-align-center" aria-hidden="true"></span>
+								</button>
+								<button type="button" class="btn btn-default" aria-label="Left Align">
+	  								<span class="glyphicon glyphicon-align-right" aria-hidden="true"></span>
+	  							</button>
+	  						</div>
+						<div class="panel-body">
+							 <div class="form-group">
+	  							<textarea class="form-control" rows="20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget augue vel tellus consequat accumsan. In eget tempus augue, a ullamcorper nulla. Duis efficitur mauris in porttitor pellentesque. Etiam dapibus libero mollis, consequat nisi a, convallis nunc. Nulla congue nibh nec nunc auctor ultricies. Etiam sit amet vestibulum magna. Sed risus mi, mollis vel ultricies eget, hendrerit eget augue. Donec lacus tellus, elementum non posuere ac, mollis nec turpis. Proin at commodo eros. Duis iaculis, ipsum a interdum varius, diam sem tristique arcu, ut tristique metus orci id massa. Integer a odio sed augue maximus ultrices quis id elit. Maecenas aliquam urna sit amet nunc vestibulum, quis bibendum nisl commodo. </textarea>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-5">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="panel panel-default">
+								  <div class="panel-heading">Upload Feature Image</div>
+								  <div class="panel-body">
+								    <input id="input-4" type="file" multiple="true">
+								  </div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="panel panel-default">
+								  <div class="panel-heading">Enter Keywords (separate with commas)</div>
+								  <div class="panel-body">
+								    <textarea class="form-control" rows="2">
+								    	science, future, stuff
+								    </textarea>
+								  </div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="panel panel-default">
+								  <div class="panel-heading">Enter Tags (separate with commas)</div>
+								  <div class="panel-body">
+								    <textarea class="form-control" rows="2">
+								    	tag1, tag2, tag3
+								    </textarea>
+								  </div>
+								</div>
+							</div>
+						</div>
+						<div class="row pull-right">
+							<div class="col-md-12">
+								<a href="logged_in_most_recent.html" class="btn btn-success">Update</a>
+								<a data-toggle="modal" data-target="#update-modal" class="btn btn-danger">Cancel</a>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</section>
+		
+		<div id="update-modal" class="modal fade">
+			  <div class="modal-dialog">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title">Leave without updating...</h4>
+			      </div>
+			      <div class="modal-body">
+			      		<h2>Are you sure you want to cancel and leave without updating article?</h2>
+			      </div>
+			      <div class="modal-footer">
+			      	<a class="btn btn-success" href="logged_in_most_recent.html">Yes</a> 
+			        <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+			      </div>
+			    </div><!-- /.modal-content -->
+			  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+	
+		<!--Scripts so we can use Bootstrap's JS and jQuery (Keep at end of HTML file)
+			=============================================================================-->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
